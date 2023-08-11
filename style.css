@@ -71,6 +71,7 @@ body{
 .gallery{
 	width: 65%;
 	margin: 15px 5px;
+	float: left;
 }
 
 .banner{
@@ -110,10 +111,10 @@ body{
 /*Next Previous btns*/
 .formdiv{
 	width: 75%;
+	clear: both;
 }
 
 .form{
-	clear: both;
 	position: relative;
 	top: 35px;
 	text-align: center;
