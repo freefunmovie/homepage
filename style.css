@@ -1,0 +1,152 @@
+::selection{
+	color: white;
+	background-color: greenyellow;
+}
+
+body{
+	margin: 0;
+	background-color: #111;
+	font-family: Verdana, sans-serif; margin:0
+}
+
+* {box-sizing: border-box}
+
+/*Navigation Bar*/
+.hnavbar{
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.logo{
+	float: left;
+	padding: 15px 25px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	background-color: olivedrab;
+	text-shadow: 1px 1px 1px black;
+}
+
+.hnav{
+	float: right;
+}
+
+.hnavbtn{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 25px 25px;
+	transition: 0.4s;
+}
+
+.hnavbtn:hover{
+	text-decoration: underline;
+	text-shadow: 4px 4px 14px #d9d9d9;
+	background-color: crimson;
+	font-size: 17px;
+	text-shadow: 5px 5px 15px black;
+}
+/*Navigation Bar*/
+
+/*Searchbar*/
+.searchbar{
+	width: 72%;
+	margin: 20px 1px 0 5px;
+	padding: 12px;
+	transition: all 0.4s;
+	font-size: 17px;
+}
+
+.searchbar:focus{
+	width: 98%;
+	border: 2px solid orangered;
+	outline: none;
+}
+/*Searchbar*/
+
+/*Banners*/
+.gallery{
+	width: 75%;
+	margin: 15px 5px;
+}
+
+.banner{
+	width: 23%;
+	margin: 5px;
+	float: left;
+}
+
+.bannerimg{
+	width: 100%;
+}
+
+.bannertxt{
+	background-color: crimson;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 1.18vw;
+}
+
+.banner a{
+	text-decoration: none;
+}
+
+.banner:hover{
+	box-shadow: 2px 2px 15px #d9d9d9, -2px -2px 15px #d9d9d9;
+	cursor: pointer;
+	text-decoration: underline;
+	color: white;
+}
+
+.banner:hover .bannertxt{
+	background-color: dodgerblue;
+}
+/*Banners*/
+
+/*Next Previous btns*/
+.formdiv{
+	width: 75%;
+}
+
+.form{
+	clear: both;
+	position: relative;
+	top: 35px;
+	text-align: center;
+}
+
+.form button{
+	padding: 10px 25px;
+	margin-bottom: 15px;
+	background-color: darkolivegreen;
+	color: white;
+	border: 1px solid darkolivegreen;
+	font-size: 25px;
+	cursor: pointer;
+	width: 150px;
+}
+
+.form button:hover{
+	background-color: dodgerblue;
+	border: 1px solid dodgerblue;
+}
+
+/*Next Previous btns*/
+
+#second{
+	display: none;
+}
+
+/*Footer*/
+.footer{
+	color: #111;
+	background-color: #d9d9d9;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+}
+/*Footer*/
